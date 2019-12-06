@@ -1,0 +1,13 @@
+@import url("https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.css");
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  direction: rtl; /*persian language*/
+  font-family: Shabnam;
+}
