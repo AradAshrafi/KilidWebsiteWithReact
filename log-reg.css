@@ -49,6 +49,20 @@
   justify-content: center;
 }
 
+.log-reg-panel-img {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  opacity: 0.6;
+  fill: #d1d1d1;
+  width: inherit;
+}
+
+.main-pane-container > .log-reg-panel-img {
+  width: 73.3%;
+  opacity: 0.1;
+}
+
 .cancel-icon > a > i {
   display: block;
   height: 100%;
@@ -57,8 +71,14 @@
 }
 
 .main-pane {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.main-pane-container {
+  width: 420px;
   padding: 55px 65px 0 65px;
-  display: inline-block;
 }
 
 .nav-bar {
@@ -109,4 +129,22 @@
   color: white;
   cursor: pointer;
   font-weight: 600;
+}
+
+/* for sign up page ----->>>> */
+
+.form > .newsletter {
+  font-weight: 100;
+  font-size: 11px;
+}
+
+.form > .rules-agreement {
+  font-weight: 100;
+  font-size: 11px;
+  float: left;
+}
+
+.form > .rules-agreement > a {
+  color: #517cfb;
+  border-bottom: 1px solid #517cfb;
 }
