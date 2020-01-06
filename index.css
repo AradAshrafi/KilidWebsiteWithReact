@@ -77,7 +77,9 @@
 }
 
 /*------------------  end  of Header's style --------------*/
+/*------------------  start of Body's style  --------------*/
 
+/* ---- Search Bar ------ */
 .container {
   background-image: url("./Pics/landingpage_background.jpg");
   background-size: cover;
@@ -140,7 +142,113 @@
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
+/* ---- end of search bar ----- */
+/* ---- start of info and evaluation part ---- */
+.info {
+  width: 60%;
+  margin: 0 auto;
+}
 
+.evaluation {
+  width: 100%;
+  position: relative;
+}
+
+.title {
+  color: #b30753;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.section-right {
+  width: 50%;
+  right: 0%;
+}
+
+.section-left {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+}
+
+.section-left img {
+  width: 200px;
+  height: 200px;
+  margin: 40px 0px 0 150px;
+}
+
+.evaluation .title {
+  position: relative;
+  right: 0px;
+}
+
+.description {
+  font-size: 18px;
+  text-align: right;
+  margin-bottom: 40px;
+  line-height: 32px;
+  color: #939598;
+}
+
+.info-btn {
+  align-self: center;
+  border: none;
+  width: 180px;
+  height: 45px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  color: #b30753;
+  background-color: #fff;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.info-btn:hover {
+  background-color: #b30753;
+  color: #fff;
+  cursor: pointer;
+}
+
+.magazines {
+  text-align: center;
+}
+
+.magazines .title {
+  margin-top: 70px;
+  /* text-align: center; */
+}
+
+.magazines .description {
+  text-align: center;
+  font-size: 15px;
+}
+
+.pictures {
+  text-align: center;
+}
+
+.pictures a {
+  display: inline-block;
+  width: 30%;
+  height: 330px;
+  margin-left: 10px;
+  box-shadow: 0 1px 8px 0 rgba(209, 211, 213, 0.77);
+  background-color: #fff;
+  transition: all 0.5s ease;
+  border-radius: 5px;
+}
+
+.pictures img {
+  height: 90%;
+  width: 100%;
+}
+
+.magazines .info-btn {
+  margin-top: 40px;
+}
+
+/* ---- end of info and evaluation part ----  */
+/* ----------------- End of Body --------------- */
 /* ----------------- Footer -------------------- */
 
 .footer {
@@ -153,7 +261,7 @@
   text-decoration: none;
 }
 
-.contacts > a {
+.contacts a {
   top: -30px;
   border-radius: 50%;
   overflow: hidden;
@@ -163,7 +271,6 @@
   width: 60px;
   position: relative;
   height: 60px;
-  transition: all 0.5s ease;
 }
 
 .contacts > a > i {
@@ -171,4 +278,113 @@
   top: 23%;
   font-size: 30px;
   color: rgba(249, 250, 252, 0.3);
+}
+
+.contacts a > i:hover {
+  transition: all 0.5s ease;
+  color: white;
+}
+
+.footer .footer-sponsors > img {
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 75px;
+  height: 75px;
+}
+
+.footer-links > a {
+  display: inline-block;
+  margin-left: 30px;
+  transition: all 0.5s ease;
+}
+
+.footer-links > a {
+  color: white;
+  font-size: 16px;
+}
+
+.footer-links1 > a:hover {
+  color: #aaa;
+}
+
+.footer-links2 > a {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.footer-links2 > a:hover {
+  color: white;
+}
+
+.footer-kilid-logo > img {
+  width: 125px;
+  height: 33px;
+}
+
+.footer-kilid-address {
+  margin-top: 16px;
+  margin-bottom: 5px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.footer-address > span:first-child {
+  display: inline-block;
+  width: 100%;
+}
+
+.footer-locations-container {
+  background: #1e1e1e;
+  color: white;
+  padding: 20px 10px;
+  margin-right: 50px;
+  font-size: 11px;
+}
+
+.footer-locations {
+  display: inline-block;
+  width: 300px;
+}
+
+.customer-purpose {
+  display: inline-block;
+  color: #aaa;
+  float: right;
+  width: 5%;
+}
+
+.footer-locations-div .locations {
+  margin-right: 10px;
+  text-align: right;
+  height: 100%;
+  color: white;
+  float: right;
+  display: inline-block;
+  width: 85%;
+}
+
+.footer-locations .locations > a {
+  display: inline-block;
+  width: 40%;
+}
+
+.footer-bottom {
+  background: #131313;
+  font-size: 11px;
+  height: 30px;
+  padding-top: 6px;
+  /* text-align: center; */
+}
+
+.footer-bottom > span {
+  color: #ccc;
+  opacity: 0.6;
+}
+
+.footer-bottom > a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
 }
