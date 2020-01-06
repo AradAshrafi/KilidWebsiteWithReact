@@ -101,7 +101,7 @@
 
 .price-button {
   display: inline-block;
-  width: 20%;
+  width: 25%;
   color: white;
   background-color: rgba(80, 80, 80, 0.8);
   font-size: 0.9em;
@@ -122,7 +122,7 @@
 .search-bar {
   background-color: rgba(80, 80, 80, 0.8);
   border-radius: 50px;
-  width: 70%;
+  width: 80%;
   margin: auto;
   margin-top: 20px;
 }
@@ -131,17 +131,55 @@
   display: inline-block;
 }
 
+.search-bar-inputs {
+  background-color: #fff;
+  height: 46px;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+/* .search-bar-inputs .location-icon {
+  background: white;
+  border: none;
+  font-size: 24px;
+  color: black;
+} */
+
+.search-bar-inputs > .arrow-down {
+  border-left: 2px solid rgba(94, 94, 94, 0.4);
+  padding-left: 5px;
+}
+
 .search-bar input {
   height: 45px;
   width: 40%;
   color: #b30753;
   border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .search-bar:last-child input {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
 }
+
+.search-button {
+  width: 100px;
+  height: 46px;
+  border-radius: 25px;
+  background-color: #b30753;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.search-button > i {
+  position: relative;
+  top: 20%;
+}
+
 /* ---- end of search bar ----- */
 /* ---- start of info and evaluation part ---- */
 .info {
