@@ -81,7 +81,7 @@
 
 /* ---- Search Bar ------ */
 .container {
-  background-image: url("./Pics/landingpage_background.jpg");
+  background-image: url("../Pics/landingpage_background.jpg");
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -427,4 +427,99 @@
   text-decoration: none;
   margin-right: 20px;
   color: white;
+}
+
+/* ------------------- Occasions Styles are here -------------------- */
+#occasions {
+  /* position: relative;
+  top: 50px; */
+  display: block;
+  width: 95%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.occasion {
+  display: inline-block;
+  width: 23%;
+  height: 250px;
+  margin-left: 5px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.occasion .introduction {
+  position: relative;
+  background-size: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 150px;
+  display: inline-block;
+}
+
+.introduction .occasion-location {
+  position: absolute;
+  font-size: 10px;
+  color: #fffbfb;
+  right: 5px;
+  margin-bottom: 5px;
+  bottom: 20px;
+}
+
+.introduction .occasion-title {
+  position: absolute;
+  color: white;
+  right: 5px;
+  bottom: 5px;
+}
+
+.occasion .information {
+  width: 100%;
+  height: 100px;
+}
+
+.information .image-footer {
+  width: 100%;
+  border-bottom: 1px solid #666;
+}
+
+.information .image-footer span {
+  display: inline-block;
+  width: 23%;
+  color: #666;
+  font-size: 11px;
+  border-left: 1px solid #666;
+}
+
+.information .image-footer span:first-child {
+  color: #517cfb;
+}
+
+.information .image-footer span:last-child {
+  border-left: none;
+}
+
+.size-price {
+  position: relative;
+}
+
+.information .size-price * {
+  display: block;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.information .size-price *:first-child {
+  position: absolute;
+  right: 5px;
+}
+
+.information .size-price *:nth-child(2) {
+  position: absolute;
+  right: 5px;
+  top: 25px;
 }

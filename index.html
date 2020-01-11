@@ -3,9 +3,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="config.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style/config.css" />
+    <link rel="stylesheet" href="style/index.css" />
     <title>>سامانه خرید و فروش - رهن و اجاره مسکن | کیلید</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/myJs.js"></script>
   </head>
   <body>
     <!----------------------- Header ------------------->
@@ -69,7 +71,7 @@
     </div>
     <!------------ End OF Search Box ------------>
 
-    <!----------- Magezine and Stuff ------------>
+    <!----------- Magezine and stuff ------------>
     <div class="info">
       <div class="evaluation">
         <div class="section-right">
@@ -95,23 +97,43 @@
           های آینده بازار مسکن را در اختیارتان قرار می دهد.
         </p>
         <div class="pictures">
-          <a href="#">
-            <div><img src="Pics/cover-300x169.jpg" alt="mag1" /></div>
-            <span>راهنمای خرید خانه پانصد میلیونی در...</span>
-          </a>
-          <a href="#">
-            <div><img src="Pics/1-cover-300x169.jpg" alt="mag2" /></div>
-            <span>نکاتی برای خانواده ها به مناسبت...</span>
-          </a>
-          <a href="#">
-            <div><img src="Pics/1-300x169.jpg" alt="mag3" /></div>
-            <span>دلایل عجیب و ترسناک برای...</span>
-          </a>
+          <!-- Here Will be filled using Ajax :) -->
         </div>
         <button class="info-btn">مطالب بیشتر</button>
       </div>
+      <!------------------ End Of Evaluation ------------------>
     </div>
 
+    <!---------------------- Occasions ---------------------->
+    <div id="occasions">
+      <h2 class="title">اکازیون های امروز کلید</h2>
+      <!-- To be filled with Ajax Call -->
+      <!-- <a href="#1">
+        <div class="occasion">
+          <div
+            class="introduction"
+            style="background-image:url(../Pics/homepage-background.jpg)"
+          >
+            <div class="occasion-location">سعادت آباد</div>
+            <div class="occasion-title">۳ خوابه در فلان</div>
+          </div>
+          <div class="information">
+            <div class="image-footer">
+              <span>۱ روز پیش</span>
+              <span> ۱ خوابه </span>
+              <span> ۵۳ متر </span>
+              <span> مسکونی </span>
+            </div>
+            <div class="size-price">
+              <span> قیمت: 100ملیون تومان</span>
+              <span> مترمربع: ۱۰ ملیون تومان </span>
+            </div>
+          </div>
+        </div>
+      </a> -->
+    </div>
+
+    <!--------------------- Page Footer ---------------------->
     <div class="footer">
       <div class="contacts">
         <a href="^_^"><i class="fa fa-paper-plane"></i></a>
