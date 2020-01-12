@@ -28,7 +28,10 @@ export default class LoginSignup extends Component {
           </div>
           <div class="right-purple-pane">
             <div class="log-reg-panel-img">
-              <img src="Pics/footer-purple-log-reg.svg" alt="logo ^_^" />
+              <img
+                src={require("./styles/Pics/footer-purple-log-reg.svg")}
+                alt="logo ^_^"
+              />
             </div>
           </div>
           <div class="main-pane-container">
@@ -100,7 +103,10 @@ export default class LoginSignup extends Component {
               )}
             </div>
             <div class="log-reg-panel-img">
-              <img src="Pics/footer-white-log-reg.svg" alt="logo ^_^" />
+              <img
+                src={require("./styles/Pics/footer-white-log-reg.svg")}
+                alt="logo ^_^"
+              />
             </div>
           </div>
         </div>
