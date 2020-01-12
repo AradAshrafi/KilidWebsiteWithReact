@@ -14,5 +14,7 @@
 
 #### Added Functionalities:
 
-1. [x] Dynamic Mags and Occasions using Ajax
-2. [ ] combining Login and Register pages into one React element
+1. [x] Integrating Phase1 with ReactJS
+2. [x] Dynamic Mags and Occasions using Ajax
+3. [x] combining Login and Register pages into one React element
+4. [ ] Add Occasion Page

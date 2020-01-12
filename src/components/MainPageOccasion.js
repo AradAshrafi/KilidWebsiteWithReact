@@ -16,7 +16,7 @@ export default class MainPageOccasion extends Component {
 
     console.log(this.state);
     return (
-      <a href={this.state.id}>
+      <a href={`occasion/${this.state.id}`}>
         <div className="occasion">
           <div
             className="introduction"
